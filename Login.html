@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/material-design-icons/iconfont/material-icons.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="inner">
+        <div class="image-holder">
+          <img src="images/m7.webp" alt="image-in-tend" />
+        </div>
+        <form action="login" method="POST" id="login-form">
+          <h3>Login</h3>
+          <div class="flex">
+            <div class="form-wrapper">
+              <input
+                type="text"
+                placeholder="Username"
+                class="form-control"
+                id="username"
+              />
+              <i class="zmdi zmdi-account"></i>
+            </div>
+            <div class="form-wrapper">
+              <input
+                type="password"
+                placeholder="Password"
+                class="form-control"
+                id="password"
+              />
+              <i class="zmdi zmdi-lock"></i>
+            </div>
+            <button type="submit">
+              Login <i class="zmdi zmdi-arrow-right"></i>
+            </button>
+          </div>
+          <a href="index.html">Don't have account?</a>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
